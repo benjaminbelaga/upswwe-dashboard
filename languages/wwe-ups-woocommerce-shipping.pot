@@ -1,0 +1,306 @@
+# Copyright (C) 2025 # Ton Nom / Ton Entreprise #
+# This file is distributed under the same license as the WooCommerce UPS Worldwide Economy Shipping plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce UPS Worldwide Economy Shipping 1.0.0\n"
+"Report-Msgid-Bugs-To: # Ton URL de support #\n"
+"POT-Creation-Date: 2025-05-04 13:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: wwe-ups-woocommerce-shipping\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-ups-wwe.php:4
+msgid "WooCommerce UPS Worldwide Economy Shipping"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woocommerce-ups-wwe.php:5
+msgid "# L'URL de ton plugin (Optionnel)"
+msgstr ""
+
+#. Description of the plugin
+#: woocommerce-ups-wwe.php:6
+msgid "Intègre les tarifs et la génération d'étiquettes UPS Worldwide Economy (WWE) DDU dans WooCommerce, conçu pour coexister avec d'autres plugins UPS."
+msgstr ""
+
+#. Author of the plugin
+#: woocommerce-ups-wwe.php:8
+msgid "# Ton Nom / Ton Entreprise #"
+msgstr ""
+
+#. Author URI of the plugin
+#: woocommerce-ups-wwe.php:9
+msgid "# L'URL de ton site (Optionnel)"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:18
+#: includes/class-wwe-ups-shipping-method.php:65
+#: includes/class-wwe-ups-admin.php:63
+msgid "UPS Worldwide Economy DDU"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:19
+msgid "Calcule les tarifs pour le service UPS Worldwide Economy DDU via l'API UPS."
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:61
+#: includes/class-wwe-ups-shipping-method.php:90
+msgid "Activer/Désactiver"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:63
+#: includes/class-wwe-ups-shipping-method.php:92
+msgid "Activer cette méthode de livraison"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:65
+#: includes/class-wwe-ups-shipping-method.php:95
+msgid "Titre"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:67
+#: includes/class-wwe-ups-shipping-method.php:97
+msgid "Ceci contrôle le titre que l'utilisateur voit lors du paiement."
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:68
+msgid "UPS Worldwide Economy"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:71
+#: includes/class-wwe-ups-shipping-method.php:101
+msgid "Mode Debug"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:72
+#: includes/class-wwe-ups-shipping-method.php:102
+msgid "Activer le mode debug"
+msgstr ""
+
+#: includes/class-wwe-ups-shipping-method.php:75
+#: includes/class-wwe-ups-shipping-method.php:105
+msgid "Active les logs pour le débogage. Vérifiez les logs sous WooCommerce > Status > Logs."
+msgstr ""
+
+#: includes/class-wwe-ups-api-handler.php:57
+msgid "Identifiants API WWE UPS manquants."
+msgstr ""
+
+#: includes/class-wwe-ups-api-handler.php:104
+msgid "Échec authentification WWE UPS : "
+msgstr ""
+
+#: includes/class-wwe-ups-api-handler.php:137
+msgid "Échec de l'encodage du corps de la requête."
+msgstr ""
+
+#: includes/class-wwe-ups-api-handler.php:176
+msgid "Erreur API inconnue."
+msgstr ""
+
+#: includes/class-wwe-ups-api-handler.php:177
+msgid "La requête API WWE a échoué (%1$s): %2$s"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:70
+msgid "Impossible de charger les données de commande."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:82
+msgid "Cette commande n'a pas utilisé la méthode UPS WWE."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:94
+msgid "Statut:"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:94
+msgid "Expédié (WWE)"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:95
+msgid "Suivi #:"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:99
+msgid "ID Expédition:"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:107
+msgid "Imprimer Étiquette WWE"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:109
+msgid "Données étiquette non trouvées."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:113
+msgid "Annuler Expédition WWE"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:118
+msgid "Expédition WWE pas encore créée."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:120
+msgid "Générer Étiquette WWE"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:122
+msgid "Simuler Tarif WWE"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:134
+#: includes/class-wwe-ups-admin.php:161
+#: includes/class-wwe-ups-admin.php:191
+#: includes/class-wwe-ups-admin.php:461
+msgid "Permission refusée."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:140
+#: includes/class-wwe-ups-admin.php:167
+#: includes/class-wwe-ups-admin.php:197
+#: includes/class-wwe-ups-admin.php:467
+msgid "ID Commande invalide."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:145
+#: includes/class-wwe-ups-admin.php:172
+#: includes/class-wwe-ups-admin.php:202
+#: includes/class-wwe-ups-admin.php:472
+msgid "Commande non trouvée."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:150
+msgid "Étiquette déjà générée pour cette commande."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:161
+#: includes/class-wwe-ups-admin.php:206
+#: includes/class-wwe-ups-admin.php:476
+msgid "Étiquette WWE générée avec succès !"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:164
+msgid "Erreur inconnue lors de la génération."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:177
+msgid "ID Expédition ou Suivi manquant pour annulation."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:191
+#: includes/class-wwe-ups-admin.php:451
+msgid "Expédition WWE annulée avec succès !"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:211
+#: includes/class-wwe-ups-admin.php:405
+msgid "Tarif WWE simulé: %s"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:214
+msgid "Impossible de simuler le tarif."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:460
+msgid "Accès refusé ou ID de commande invalide."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:465
+msgid "Données d'étiquette non trouvées pour cette commande."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:470
+msgid "Erreur lors du décodage des données de l'étiquette."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:244
+#: includes/class-wwe-ups-admin.php:420
+msgid "Handler API WWE non configuré."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:256
+#: includes/class-wwe-ups-admin.php:306
+#: includes/class-wwe-ups-admin.php:410
+msgid "Articles de commande invalides ou poids manquant."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:260
+#: includes/class-wwe-ups-admin.php:414
+msgid "Impossible de déterminer les détails du colis."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:265
+#: includes/class-wwe-ups-admin.php:419
+msgid "Impossible de récupérer les détails d'adresse."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:270
+msgid "La logique de génération d'étiquette n'est pas encore implémentée."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:316
+#: includes/class-wwe-ups-admin.php:440
+msgid "Aucun ID d'expédition ou numéro de suivi trouvé pour annuler."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:323
+#: includes/class-wwe-ups-admin.php:447
+msgid "La logique d'annulation n'est pas encore implémentée."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:334
+msgid "Tentative d'annulation de l'expédition UPS WWE échouée: "
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:344
+msgid "Expédition UPS WWE annulée avec succès."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:356
+#: includes/class-wwe-ups-admin.php:405
+msgid "Impossible de créer le colis depuis la commande pour la simulation."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:395
+#: includes/class-wwe-ups-admin.php:435
+msgid "La devise de l'API est différente de celle de la boutique."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:399
+#: includes/class-wwe-ups-admin.php:439
+msgid "La logique de simulation n'est pas encore implémentée."
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:487
+#: includes/class-wwe-ups-admin.php:503
+#: includes/class-wwe-ups-tracking.php:32
+#: includes/class-wwe-ups-tracking.php:58
+msgid "Suivi UPS WWE"
+msgstr ""
+
+#: includes/class-wwe-ups-admin.php:507
+msgid "Suivre sur UPS.com"
+msgstr ""
+
+#: includes/class-wwe-ups-tracking.php:34
+#: includes/class-wwe-ups-tracking.php:60
+msgid "Votre numéro de suivi :"
+msgstr ""
+
+#: includes/class-wwe-ups-address-validation.php:49
+msgid "Adresse incomplète pour validation (Pays, CP, Ville requis)."
+msgstr ""
+
+#: includes/class-wwe-ups-address-validation.php:65
+msgid "Réponse invalide de l'API de validation d'adresse."
+msgstr ""

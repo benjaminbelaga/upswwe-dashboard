@@ -1,0 +1,110 @@
+/* UPS Worldwide Economy Admin Styles */
+
+/* --- Styles Meta Box Commande --- */
+#wwe_ups_metabox .inside {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Zone pour afficher les messages d'erreur ou de succès */
+#wwe_ups_metabox .wwe-ups-message-area {
+    padding: 8px 12px !important;
+    margin-bottom: 10px !important;
+    border-left-width: 4px !important;
+    border-left-style: solid !important;
+    display: block !important;
+}
+#wwe_ups_metabox .wwe-ups-error-message {
+    border-left-color: #dc3232 !important;
+    background: #fef7f7 !important;
+    color: #dc3232 !important;
+}
+#wwe_ups_metabox .wwe-ups-success-message {
+    border-left-color: #46b450 !important;
+    background: #f7fef7 !important;
+    color: #217c27 !important;
+}
+
+/* Infos expédition */
+#wwe_ups_metabox .wwe-ups-shipment-info p {
+    margin: 4px 0;
+    padding: 0;
+    line-height: 1.4;
+}
+#wwe_ups_metabox .wwe-ups-shipment-info strong {
+    display: inline-block;
+    min-width: 90px;
+    font-weight: 600;
+}
+
+/* Conteneur des actions */
+#wwe_ups_metabox .wwe-ups-metabox-actions {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+#wwe_ups_metabox .wwe-ups-metabox-actions .button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+#wwe_ups_metabox .wwe-ups-metabox-actions .spinner {
+    margin-left: 5px;
+    vertical-align: middle;
+    visibility: visible;
+    float: none !important;
+    display: inline-block !important;
+}
+
+/* Zone résultat simulation */
+#wwe_ups_metabox .wwe-simulation-result {
+    margin-top: 10px;
+    padding: 5px 8px;
+    border-left: 3px solid #ddd;
+    background: #f9f9f9;
+    color: #555;
+    font-style: italic;
+    clear: both;
+}
+
+/* --- Styles Colonne Personnalisée (Liste Commandes) --- */
+.column-wwe_tracking_column .wwe-ups-tracking-info {
+    display: block;
+    font-size: 0.9em;
+}
+.column-wwe_tracking_column .wwe-ups-tracking-info a {
+    font-weight: 600;
+    word-break: break-all;
+}
+
+/* --- Styles Page Réglages WWE (Optionnel) --- */
+/* Si besoin de distinguer les réglages WWE */
+/* .woocommerce_page_wc-settings .form-table tr th label[for^="woocommerce_wwe_ups_"] {
+    font-style: italic;
+} */
+
+/* ── Orders list action button ─────────────────────────────── */
+.wwe-ups-list-generate-label-button {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 32px !important;
+    height: 32px !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    line-height: 0 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    font-size: 0 !important;
+}
+
+.wwe-ups-logo-32x32 {
+    display: block;
+    width: 16px !important;
+    height: 16px !important;
+    object-fit: contain !important;
+    margin: auto !important;
+    vertical-align: middle !important;
+}

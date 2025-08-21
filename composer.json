@@ -1,0 +1,85 @@
+{
+    "name": "yoyaku/woocommerce-ups-wwe",
+    "description": "Intègre les tarifs et la génération d'étiquettes UPS Worldwide Economy (WWE) DDU dans WooCommerce, conçu pour coexister avec d'autres plugins UPS.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Benjamin Belaga",
+            "email": "ben@yoyaku.fr",
+            "homepage": "https://yoyaku.io",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/yoyaku/woocommerce-ups-wwe",
+    "support": {
+        "issues": "https://github.com/yoyaku/woocommerce-ups-wwe/issues",
+        "source": "https://github.com/yoyaku/woocommerce-ups-wwe"
+    },
+    "keywords": [
+        "wordpress",
+        "woocommerce",
+        "ups",
+        "shipping",
+        "worldwide-economy",
+        "logistics",
+        "e-commerce"
+    ],
+    "require": {
+        "php": ">=7.2",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.3",
+        "setasign/fpdi-fpdf": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "WWE_UPS\\": "includes/"
+        },
+        "files": [
+            "includes/wwe-ups-functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WWE_UPS\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "cs": "phpcs --standard=WordPress --extensions=php --ignore=vendor/,node_modules/ .",
+        "cbf": "phpcbf --standard=WordPress --extensions=php --ignore=vendor/,node_modules/ .",
+        "install-codestandards": [
+            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "wordpress-plugin": {
+            "main-file": "woocommerce-ups-wwe.php",
+            "text-domain": "wwe-ups-woocommerce-shipping"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "tests/",
+            "tools/",
+            "docs/",
+            ".git/",
+            ".gitignore",
+            "phpunit.xml",
+            "composer.json",
+            "composer.lock",
+            "README.md"
+        ]
+    }
+} 

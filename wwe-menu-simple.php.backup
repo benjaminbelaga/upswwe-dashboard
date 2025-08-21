@@ -1,0 +1,37 @@
+<?php
+/**
+ * UPS WWE Simple Menu - Globe icon direct to Customs
+ */
+
+// Security check
+if (!defined("ABSPATH")) exit;
+
+// Remove existing UPS WWE submenus from WooCommerce
+add_action("admin_menu", function() {
+    // Remove sous-menu WooCommerce
+    remove_submenu_page("woocommerce", "wwe-ups-customs");
+    
+    // Add simple globe menu - direct to customs page
+    add_menu_page(
+        "UPS WWE Customs",
+        "🌐 UPS WWE",
+        "manage_woocommerce", 
+        "wwe-ups-customs",
+        "wwe_ups_customs_page",
+        "",
+        56.5
+    );
+}, 999);
+
+// Direct to customs page - same as WooCommerce submenu
+function wwe_ups_customs_page() {
+    if (class_exists("WWE_UPS_Customs_Dashboard")) {
+        $customs = new WWE_UPS_Customs_Dashboard();
+        $customs->render_customs_page();
+    } else {
+        echo "<div class=\"wrap\">
+            <h1>🌐 UPS WorldWide Economy Customs</h1>
+            <p>Page customs en cours de chargement...</p>
+        </div>";
+    }
+}
