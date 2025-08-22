@@ -16,7 +16,7 @@ if (!class_exists('WWE_UPS_Customs_Dashboard')) {
          * Constructor
          */
         public function __construct() {
-            add_action('admin_menu', [$this, 'add_admin_menu']);
+            #add_action('admin_menu', [$this, 'add_admin_menu']);
             add_action('admin_enqueue_scripts', [$this, 'enqueue_scripts']);
             add_action('wp_ajax_wwe_process_customs_bulk', [$this, 'ajax_process_customs_bulk']);
             add_action('wp_ajax_wwe_get_eligible_orders', [$this, 'ajax_get_eligible_orders']);
